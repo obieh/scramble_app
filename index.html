@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redactor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Redact App</h1>
+        <h3 id =user>Welcome Guest</h3>
+        <textarea id="initialText" placeholder="Enter your message here"></textarea>
+        <input type="text" id="wordsToRedact" placeholder="Enter space separated words to scramble here">
+        <div id="redactedText"></div>
+        <!--<div id="counts"></div>-->
+        
+        <div class="flex-button">
+            <button id="redactButton">Redact Now</button>
+            <button id="resetButton">Clear</button>
+        </div>
+    </div>
+</body>
+</html>
